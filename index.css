@@ -66,6 +66,7 @@ section{
 	background: rgba(255, 255, 255, 0.1);
 	backdrop-filter: blur(20px);
 	padding: 30px;
+	margin-bottom: 80px;
 	max-width: 300px;
 	border: 1px solid rgba(255, 255,255, 0.1);
     border-radius: 10px;
@@ -94,7 +95,7 @@ section{
 }
 .info-title{
 	font-size: 1.8em;
-	margin-bottom: 10px;
+	margin-bottom: 0;
 }
 .info{
 	width: 700px;
@@ -128,17 +129,56 @@ section{
 
 
   @media(max-width: 850px){
-  	.sec-01 .container .main-title {
-  		
-  		font-size: 40px;
-      image-rendering: 55px;
-  	}
+	  body{
+		  width: 100%;
+	  }
+  	section{
+		  font-weight: 700;
+         
+	  }
+	  .main-title{
+        font-weight: 600;
+		width: 300px;
+		text-align: center;
+	  }
+	  .content{
+		  width: 500px;
+		 
+	  }
+	  .sec-01 .image img{
+		  margin-left: 20px;
+	  }
+	  .text-box{
+		  width: 400px;
+		  font-style: italic;
+		  height: 350px;
+		  
+	  }
+	  .media-icon a{
+		color: #fff;
+		font-size: 2em;
+		margin: 25px;
+	  }
+	  .sec-02{
+		  width: 490px;
+	  }
+	  .info{
+		
+		 width: 300px;
+		 height: 300px;
+		 text-align: center;
+		 font-weight: 100;
+
+	  }
+	  
+	  .sec-02 .image img{
+		 
+		  margin-left: 10px;
+		  height: 200px;
+		 width: 280px; 
+		 border-radius: 50px;
+	  }
+	  
   }
 
-    @media(max-width: 650px){
-  	 section .media-icon{
-  	   font-size: 0.6em;
-  		 display: flex;
-
-  	}
-  }
+   
